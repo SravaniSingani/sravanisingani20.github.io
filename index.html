@@ -4,255 +4,234 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
-    <!-- overlay -->
-    <div class="overlay">
-    </div>
-
-    <!-- main -->
-    <div class="main">
-
-        <!-- header -->
-
-        <header class="header">
-            <div class="container">
-                <div class="row flex-end">
-                    <button type="button" class="nav-toggler">
-                        <span></span>
-                    </button>
-                    <nav class="nav">
-                        <div class="nav-inner">
-                            <ul>
-                                <li><a href="#home" class="nav-item link-item">Home</a></li>
-                                <li><a href="#about" class="nav-item link-item">About</a></li>
-                                <li><a href="#projects" class="nav-item link-item">Projects</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
+    <header class="header">
+       
+        <nav class="nav-bar">
+           
+            <ul class="nav-logo">
+                <li id="logo">S</li>
+                <div class="nav-name">        
+                <li>SRAVANI</li>
+                <li>SINGANI</li>
             </div>
-        </header>
+            </ul>
+            <ul class="nav-list">
+                <li><a href="index.html#about">ABOUT</a></li>
+                <li><a href="index.html#projects">PROJECTS</a></li>
+                <li><a href="index.html#contact">CONTACT</a></li>
+            </ul>
 
-
-        <!-- home section -->
-
-        <section class="home-section align-items-center active" id="home">
-            <div class="container">
-                <div class="row align-items-center">
-
-                    <div class="home-text">
-                        <p>Hi! I am</p>
-                        <h1>Sravani Singani</h1>
-                        <h2>Full Stack Developer</h2>
-                        <p>With a passion for creating innovative web solutions, I specialize in crafting dynamic and user-friendly websites and applications.</p>
-                        <a href="#about" class="btn link-item">About Me</a>
-                        <a href="#projects" class="btn link-item">Projects</a>
-                        <p>Let's connect and chat! You can find me on:</p>
-                        <a href="https://www.linkedin.com/in/singani-sravani-582926161/" class="socials"><i class='bx bxl-linkedin'></i></a>
-                        <a href="https://github.com/SravaniSingani" class="socials"> <i class='bx bxl-github' ></i></a>
-                        <a href="mailto:ssingani24@gmail.com" class="socials"><i class='bx bxl-gmail' ></i></a>
-                        
-                       
-                        
-                        
-                    </div>
-
-                    <div class="home-img">
-                        <div class="img-box">
-                            <img src="img/profpic.jpg" alt="profile picture">
-                        </div>
-                    </div>
-
+            <div id="hamburger-menu">
+                <button class="hamburger-btn"> ☰ </button>
+                <div class="nav-links">
+                    <a href="index.html#about">ABOUT</a>
+                    <a href="index.html#projects">PROJECTS</a>
+                    <a href="index.html#contact">CONTACT</a>
                 </div>
-            </div>
-        </section>
+             </div>
+        </nav>
+        
+    </header>
 
-              <!-- about section -->
-        <section class="about-section sec-padding" id="about">
-            <div class="container">
+    <main>
+     <div class="intro">
+        <img src="img/profpic.png" alt="profile pic">
+        <div class="intro-text">
+          <h1>HI! I AM <span>SRAVANI </span> </h1>
+          <h2>WEB DEVELOPER</h2>
+          <p>A creative individual, who enjoys exploring the digital world and builds user engaging applications.</p>
+        </div>
+     </div>
 
-                <div class="row">
-                    <div class="section-title">
-                        <h2>About Me</h2>
-                    </div>
-                </div>
+     <section id="projects">
+        <h2>WORKED ON</h2>
+        <p>Hover To Know More</p>
+        <div class="project-container">
 
-                <div class="row">
+          <div class="project">
 
-                    <div class="about-img">
-                        <div class="img-box">
-                            <img src="img/profpic.jpg" alt="about img">
-                        </div>
-                    </div>
+                <div class="demo">
+                    <img src="img/NXNE.gif" alt="" class="" >
 
-                    <div class="about-text">
+                    <div class="aboutapp">
+                        <h3>NXNE Festival App</h3>
                         <p>
-                            My aspiration to code has brought me all the way to Toronto, Canada.
-                            I have done ‘Web Development’ at Humber College which helped me pave the way to Web design and development industry. I did my B.E. in CSE at Stanley College, India. 
-                            Apart from coding, I spend my time exploring various design landscapes to expand my design perspective.
+                          A mobile applicationto to help the user navigate through the NXNE festival grounds. 
+                          The app has features to book festival tickets, find the nearest restaurants at the venue and a user personalised scehdule. 
                         </p>
-
-                        <h3>Technical Skills</h3>
-                        <div class="skills languages">
-                            <div class="skill-item">MERN Stack</div>
-                            <div class="skill-item">Laravel</div>
-                            <div class="skill-item">HTML</div>
-                            <div class="skill-item">CSS</div>
-                            <div class="skill-item">JavaScript</div>
-                            <div class="skill-item">PHP</div>
-                            <div class="skill-item">Asp.net</div>
-                           
-                        </div>
-
-                        <h3>Tools</h3>
-                        <div class="skills tools">
-                            <div class="skill-item">Github</div>
-                            <div class="skill-item">Figma</div>
-                            <div class="skill-item">Canva</div>
-                            <div class="skill-item">Mongo Atlas</div>
-                            <div class="skill-item">Visual Studio</div>
-                            <div class="skill-item">MAMP</div>
-                        </div>
-
-                      <!--   <div class="about-tabs">
-                            <button type="button" class="tab-item active" data-target="#education">Education</button>
-                            <button type="button" class="tab-item" data-target="#experience">Experience</button>
-                        </div>  -->
+                        <p>Figma</p>
                     </div>
-                </div>
 
+           </div>
+        </div>
+
+
+        <div class="project">
+     
+            <div class="demo">
+                <img src="img/jsmovie.gif" alt="" >
+
+                <div class="aboutapp">
+                    <h3>Movie Suggester</h3>
+                    <p>
+                       A web application that randomly suggests a movie to watch, based on the user selected genre.
+                    </p>
+                    <p>HTML, CSS, Java Script</p>
+                 </div>
+
+           </div>
+        </div>
+
+          <div class="project">
+ 
+                <div class="demo">
+                    <img src="img/pennyjuice.gif" alt="" >
+
+                    <div class="aboutapp">
+                        <h3>Penny Juice Website Redesign</h3>
+                        <p>
+                         A redesigned prototype for the website of ‘Penny Juice of America’. 
+                         Improved the brand identity and the overall purchase flow of the website.
+                        </p>
+                        <p>Figma</p>
+                     </div>
+
+              </div>
+          </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="skills">
+        <h2>SKILLS</h2>
+        <div class="skill-container">
+
+          <div class="skill">
+              <h3>LANGUAGES</h3>
+              <div class="skill-item">
+             
+                    <p>C</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Java Script</p>
+                    <p>C#</p>
+                    <p>MySql</p>
+    
             </div>
-        </section>
+          </div>
 
-     <!-- projects section -->
+          <div class="skill">
+            <h3>DESIGN TOOLS</h3>
+            <div class="skill-item">
+       
+                    <p>Figma</p>
+                    <p>Adobe Illustrator</p>
+          
+            </div>
+          </div>
 
-     <section class="project-section sec-padding" id="projects">
-        <div class="container">
-            <div class="row">
-                <div class="section-title">
-                    <h2>Projects</h2>
+          <div class="skill">
+            <h3>DEV TOOLS</h3>
+            <div class="skill-item">
+                
+                    <p>Github</p>
+                    <p>Visual Studio</p>
+                    <p>VS Code</p>
+                    <p>Android Studio</p>
+                    <p>R Studio</p>
+             
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <section id="works">
+        <div class="work-container">
+            <div class="work-context">
+                <h2>What I Can Do?</h2>
+
+                <div class="work-topic">
+                   <h4>Web Design</h4>
+                   <p>Improve the brand identity and the web flow.</p>
+                </div>
+
+                <div class="work-topic">
+                    <h4>Product and Logos</h4>
+                    <p>Create unique and noteworthy designs</p>
                 </div>
             </div>
 
-            <div class="row">
-             <!-- projects items -->
-             <div class="project-item">
-                <div class="project-item-thumbnail">
-                    <img src="img/tinytales.png" alt="tiny tales"> 
+            <div class="soft-skills">
+                <div class="soft-skill">
+                    <img src="img/time.png" alt="soft skill 1">
+                    <h4>Time Management</h4>
                 </div>
-                <h3 class="project-item-title">Tiny Tales</h3>
-                <button type="button" class="btn view-project-btn">View Project</button>
-                <div class="project-item-details">
-                    <div class="description">
-                        <p>TinyTales is a website demonstrating an online book store built using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to explore a collection of books and authors, view detailed information about each book and author.</p>
-                    </div>
-                    <div class="general-info">
-                        <ul>
-                            <li>Created - <span> 17 April 2024</span></li>
-                            <li>Technologies Used - <span>MERN Stack (MongoDB, Express.js, React, and Node.js)</span></li>
-                            <li>View Link - <span><a href="https://tiny-tales-nine.vercel.app/" target="_blank">Tiny Tales</a></span></li>
-                            <li>Github Link - <span><a href="https://github.com/SravaniSingani/TinyTales" target="_blank">Tiny Tales Github</a></span></li>
-                        </ul>
-                    </div>
+                <div class="soft-skill">
+                    <img src="img/comn.png" alt="soft skill 2">
+                    <h4>Communication</h4>
                 </div>
-             </div>
-
-                 <!-- projects items -->
-             <div class="project-item">
-                    <div class="project-item-thumbnail">
-                        <img src="img/fashionforecast.png" alt="movie suggester">
-                    </div>
-                    <h3 class="project-item-title">Fashion Forecast</h3>
-                    <button type="button" class="btn view-project-btn">View Project</button>
-                    <div class="project-item-details">
-                        <div class="description">
-                            <p>Fashion Forecast is a web application that utilizes the OpenWeatherMap and Pexels APIs to provide style suggestions based on the current weather in a user-selected city and their chosen gender. The website is built using Node.js for the backend and PUG for the frontend, with CSS for styling.
-                            </p>
-                        </div>
-                        <div class="general-info">
-                            <ul>
-                                <li>Created - <span> 5 April 2024</span></li>
-                                <li>Technologies Used - <span>Node.js, Express.js, Axios, Pug, CSS</span></li>
-                                <li>API's Used - <span>OpenWeatherMap, Pexels</span></li>
-                                <li>View Link - <span><a href="https://fashionforecast.onrender.com/" target="_blank">Fashion Forecast</a></span></li>
-                                <li>Github Link - <span><a href="https://github.com/SravaniSingani/FashionForecast" target="_blank">Fashion Forecast Github</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-             </div>
-
-
-               <!-- projects items -->
-               <div class="project-item">
-                <div class="project-item-thumbnail">
-                    <img src="img/driveeasy.png" alt="tiny tales">
+                <div class="soft-skill">
+                    <img src="img/curious.png" alt="soft skill 3">
+                    <h4>Curiosity</h4>
                 </div>
-                <h3 class="project-item-title">DriveEasy</h3>
-                <button type="button" class="btn view-project-btn">View Project</button>
-                <div class="project-item-details">
-                    <div class="description">
-                        <p>DriveEasy is a CMS system demonstrating a model of an online 'Car Rental' platform. The website consists of different cars and brands.</p>
-                    </div>
-                    <div class="general-info">
-                        <ul>
-                            <li>Created - <span> 19 March 2024</span></li>
-                            <li>Technologies Used - <span>PHP, MySql, MAMP, Bootstrap, HTML, CSS</span></li>
-                            <li>View Link - <span><a href="http://assign1.rf.gd/index.php" target="_blank">Drive Easy</a></span></li>
-                            <li>View Link - <span><a href="https://github.com/SravaniSingani/phphttp5225/tree/main/Assign1-SravaniSingani" target="_blank">Drive Easy Github</a></span></li>
-                        </ul>
-                    </div>
+                <div class="soft-skill">
+                    <img src="img/adapt.png" alt="soft skill 4">
+                    <h4>Adaptability</h4>
                 </div>
-             </div>
-
-              <!-- projects items -->
-              <div class="project-item">
-                <div class="project-item-thumbnail">
-                    <img src="img/biblioverse.png" alt="tiny tales">
-                </div>
-                <h3 class="project-item-title">Biblioverse</h3>
-                <button type="button" class="btn view-project-btn">View Project</button>
-                <div class="project-item-details">
-                    <div class="description">
-                        <p>The website demonstrates an online book store to showcase a collection of books and allows users to post reviews. Reviews are stored in a MongoDB Atlas database, enabling dynamic display of user feedback on the website.</p>
-                    </div>
-                    <div class="general-info">
-                        <ul>
-                            <li>Created - <span> 29 Feb 2024</span></li>
-                            <li>Technologies Used - <span>Node.js, Pug, Mongo Atlas, Express.js, CSS</span></li>
-                            <li>View Link - <span><a href="https://github.com/SravaniSingani/Biblioverse-AtlasMongo" target="_blank">Biblioverse Github</a></span></li>
-                        </ul>
-                    </div>
-                </div>
-             </div>
-
-               <!-- projects items end-->
 
             </div>
         </div>
-     </section>
-    </div>
+    </section>
 
-    <!-- Project Item Details Popop -->
-    <div class="project-popup">
-        <div class="pp-inner">
-            <div class="pp-content">
-                <div class="pp-header">
-                    <button type="button" class="btn pp-close"><i class='bx bx-x'></i></button>
-                    <div class="pp-thumbnail">
-                        <img src="img/tinytales.png" alt="tinytales">
-                    </div>
-                    <h3></h3>
-                </div>
-                <div class="pp-body">
-                </div>
+    <section id="about">
+        <div class="aboutme">
+            <h2>ABOUT ME</h2>
+            <div class="about-text">
+            <p>
+                My aspiration to code has brought me all the way to Toronto, Canada.
+                I am learning ‘Web Development’ at Humber College which is helping me pave the way to Web design and development industry. I did my BE in CSE at Stanley College, India. 
+                Apart from coding, I spend my time exploring various design landscapes to expand my design perspective.
+            </p>
             </div>
         </div>
-    </div>
+    </section>
 
-    <script src="script.js"></script>
+ 
+    <section id="contact">
+        <div class="contactinfo">
+    <h2 id="contact-head">CONTACT ME</h2>
+    <p> Do you have a project on mind? or Do you have any questions about a project you would like to discuss? Reach me out on these platforms.</p>
+    <ul class="social-list">
+        <li><a href="https://github.com/SravaniSingani"> <img src="img/github.png" alt="github"></a></li>
+        <li><a href="https://www.linkedin.com/in/singani-sravani-582926161/"><img src="img/linkedin.png" alt="linkedin"></a> </li>
+        <li> <img src="img/insta.png" alt="instagram"></li>
+        <li>  <a href=mailto:“sravanisingani20@gmail.com”><img src="img/gmail.png" alt="gmail"></a></li>
+    </ul>
+</div>
+</section>
+
+    </main>
+
+    <footer class="footer-content">
+       
+        <nav class="footer-items">
+            <p>© Sravani Singani, Copyright 2023</p>
+        </nav>
+    </footer>
+    <script>
+
+        document.querySelector('.hamburger-btn').addEventListener('click', function() 
+        {
+              document.querySelector('.nav-links').style.display = 
+                 (document.querySelector('.nav-links').style.display == 'none') ? 'block' : 'none';
+        });
+    </script>
 </body>
 </html>
+
